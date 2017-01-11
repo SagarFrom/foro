@@ -54,7 +54,7 @@ return [
 
         'mysql' => [
             'driver' => 'mysql',
-            'host' => env('DB_HOST', 'localhost'),
+            'host' => env('DB_HOST', 'localhos  t'),
             'port' => env('DB_PORT', '3306'),
             'database' => env('DB_DATABASE', 'forge'),
             'username' => env('DB_USERNAME', 'forge'),
@@ -70,7 +70,7 @@ return [
             'driver' => 'mysql',
             'host' => env('DB_HOST', 'localhost'),
             'port' => env('DB_PORT', '3306'),
-            'database' => env('DB_DATABASE_TEST', 'forge_tests'),
+            'database' => env('DB_DATABASE_TEST', 'foro_tests'),
             'username' => env('MYSQL_USERNAME',env('DB_USERNAME', 'forge')),
             'password' => env('MYSQL_PASSWORD',env('DB_PASSWORD', '')),
             'charset' => 'utf8',
